@@ -8,26 +8,31 @@ body{
  display: flex;
  justify-content:center;
  background-color: #ffffff;
- width: 400px;
+ width: 450px;
  margin: auto;
  margin-top:100px;
- padding:40px 30px;
+ padding:20px 0px;
  border-radius:10px;
 
 }
+.container form{
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
 input.form-control{
-    padding: 5px 10px !important;
+    padding: 10px 10px !important;
     font-size:17px;
-}
-
-.btn.btn-primary{
-    background-color: #1878d8;
     border: none;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius:5px
-}
+    text-align:center;
+    background-color: #ffffff;
+    border: 3px solid #1878d8;
+    outline: none;
+    width: 90%;
 
+}
 
 .card-response{
  min-height: 100;
