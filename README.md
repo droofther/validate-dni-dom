@@ -22,10 +22,7 @@ const validatorDNI = (dni) => {
     return { value: x, boolean: true, format, response }
 
 }
-/**
- * 
- * @param {string} x  
- */
+
 const getDni = (x) => {
     fetch(`https://api.adamix.net/apec/cedula/${x}`)
         .then(response => response.json())
@@ -37,3 +34,7 @@ const getDni = (x) => {
             return response.error = error
         })
 }
+
+
+![image](https://user-images.githubusercontent.com/82691524/187324921-9d07ff39-c983-433a-9a1f-a1fedee3a0e3.png)
+
